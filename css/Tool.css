@@ -1,0 +1,324 @@
+*{transition:all 0.3s ease-in-out;}
+/* nav bar> */
+.anchor-item{
+    float: left;
+    display: inline-block; 
+    padding-right:60px;
+    font-size:20px; 
+    font-family:sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(29, 6, 129);
+    text-decoration: none;
+}
+body{
+  font-family: sans-serif ;
+}
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{
+    float:center;
+    padding-right: 10px;
+    padding: 10px;
+    margin:30px;
+    
+}
+
+.logo img{
+    float:left;
+    margin-right:80px;
+    margin-left: 20px;
+}
+.anchor-item{
+    float: left;
+    display: inline-block; 
+    padding-right:60px;
+    font-size:20px; 
+    font-family:sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(29, 6, 129);
+    text-decoration: none;
+}
+ul li{
+    float: left;
+    display: inline-block; 
+    padding-right:60px;
+    font-size:20px; 
+    font-family:sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(29, 6, 129);
+}
+    
+
+ul li:hover{
+  color:red;
+  
+}
+.img-3{
+  width: 100%;
+  height:50%;
+}
+.card-main{
+    background-color: rgb(221, 224, 224);
+    width:50%;
+    height:50%;
+    margin-left:320px;
+    padding:50px;
+    letter-spacing: normal;
+    position: absolute;
+    top: 100%;
+    right:10%;
+    
+}
+.card1-head{
+    color:rgb(29, 6, 129) ;
+    font-family: spinnaker;
+    font-size:66px;
+    line-height: 1em;
+    pointer-events: auto;
+    margin: 10px;
+    font: normal normal normal 66px / 1.4em spinnaker, sans-serif;
+    
+  }
+  .row {
+    display: flex;
+    justify-content: space-between; /* Ensures space between the sections */
+  }
+  
+  .section {
+    width: 38%; /* Adjust this to control how much space each section takes */
+    padding: 10px;
+    border: 1px solid #ccc; /* Optional: Adds a border for visualization */
+    border-style: none;
+    font-size: 24px;
+    font-family: sans-serif;
+    
+
+  }
+  
+  .left-section {
+    background-color:rgb(221, 224, 224); /* Optional: Different background for the left section */
+    width:20%;
+  }
+  
+  .right-section {
+    background-color: rgb(221, 224, 224); /* Optional: Different background for the right section */
+    width:80%;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 1.7em;
+  }
+  .styled-line {
+    border: none; /* Remove the default border */
+    height: 2px; /* Thickness of the line */
+    background-color: black; /* Color of the line */
+    width: 80%; /* Line width as percentage of the container */
+    margin: 17px auto; /* Center the line */
+  }
+  .files-content{
+    margin-top: 10%;
+    font-weight: 100;
+    margin-left:20%;
+  }
+  /*  Search engine */
+  .search-container {
+    display: flex;               /* Align items horizontally in a row */
+    align-items: center;         /* Vertically center the elements */
+    border-bottom: 1px solid #ccc;      /* Optional: Add border around the container */
+    padding: 5px;                /* Optional: Space inside the container */
+    width: 300px;                /* Set container width */
+    margin-left: 60%;
+  }
+  
+  /* Search input */
+  .search-box {
+    border: none;                /* Remove default border */
+    outline: none;               /* Remove focus outline */
+    flex: 1;                     /* Make the input take all available space */
+    padding: 5px 10px;           /* Add padding inside the input */
+    font-size: 16px;             /* Adjust font size */
+    border-radius: 25px;         /* Optional: Rounded corners */
+  }
+  
+  /* Search button with icon */
+  .search-button {
+    background-color: transparent; /* No background for the button */
+    border: none;                  /* Remove border */
+    cursor: pointer;               /* Show pointer on hover */
+    font-size: 18px;               /* Adjust size of the icon */
+    padding: 5px;                  /* Optional: Padding around the button */
+  }
+  
+  /* Optional: Hover effect on button */
+  .search-button:hover {
+    color: red;                    /* Change color when hovered */
+  }
+
+.folder-container {
+    display: flex;                /* Use flexbox layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center;          /* Center items vertically */
+    width: 70%;                  /*  width of the parent */
+    margin-left:15%;
+  }
+ .item-name{
+    flex: 1;                      /* Each item takes equal space */
+    padding: 15px;               /* Add some padding */
+    margin-right: 50px; 
+    margin-left: none;                /* Optional: margin between items */
+    background-color: white ;   /* Background color for visibility */
+    text-align: center;
+ }
+  .item {
+    flex: 1;                      /* Each item takes equal space */
+    padding: 10px;               /* Add some padding */
+    margin-left: 10px;                 /* Optional: margin between items */
+    background-color: white ;   /* Background color for visibility */
+    text-align: center;           /* Center text inside items */
+    
+  }
+  .arrow {
+    cursor: pointer;                  /* Change cursor to pointer on hover */
+    margin: 10px;                    /* Add space between arrows */
+}
+  .hor-line{
+    margin-left:15%;
+    margin-right:15%;
+  }
+  .fa-solid fa-folderP{
+    color: rgb(9, 9, 68);
+
+  }
+  .item-check{
+    margin-left: 55px;
+    margin-right:  none;
+  }
+  .folder-container1 {
+    display: flex;                /* Use flexbox layout */
+    align-items: center;          /* Center items vertically */
+    margin-right:none;
+    
+    
+  }
+ .items{
+    margin: none;
+    padding: 10px;
+
+ }
+ .item-date{
+    padding: 5px;
+    margin-right: 120px;
+ }
+ .circle {
+    width: 30px;             /* Set width of the circle */
+    height: 30px;            /* Set height of the circle */
+    background-color: blue;   /* Fill the circle with blue color */
+    border-radius: 50%;       /* Make it a circle */
+    display: flex;            /* Use flexbox to center the text */
+    justify-content: center;   /* Center text horizontally */
+    align-items: center;       /* Center text vertically */
+    color: white;             /* Text color */
+    font-size: 24pxpx;          /* Font size */
+    font-family: Arial, sans-serif; /* Font style */
+}
+/* contact us css */
+.contact-head{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font: normal normal normal 35px / 1.4em spinnaker, sans-serif;
+}
+.contact-form {
+    background-color: rgb(29, 6, 129);       /* Form background color */
+    padding: 20px;                 /* Padding inside the form */
+    border-radius: 8px;            /* Rounded corners */
+    box-shadow: 0 2px 10px white ; /* Shadow effect */
+    width: 100%;                  /* Form width */
+}
+
+.form-group {
+    display: flex;                 /* Use flexbox for input layout */
+    justify-content: space-between; /* Space between items */
+    margin-bottom: 15px;           /* Space below each group */
+}
+
+.form-group input, .form-group textarea {
+    border: none;                  /* Remove default border */
+    border-bottom: 2px solid #ccc; /* Add bottom border */
+    padding: 10px;                 /* Padding inside inputs */
+    width: calc(50% - 10px);      /* Adjust width for input fields */
+    font-size: 16px;               /* Font size */
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.1);                      /* Remove outline on focus */
+}
+
+.form-group textarea {
+    width: 100%;                   /* Full width for textarea */
+    height: 100px; 
+    background-color: rgba(0, 0, 0, 0.1);                /* Fixed height for textarea */
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color:rgba(0, 0, 0, 0.1);            /* Change border color on focus */
+}
+
+.submit-button {
+    background-color: rgba(0, 0, 0, 0.1);        /* Button background color */
+    color: white;                  /* Button text color */
+    border: none;                  /* Remove default border */
+    padding: 10px 20px;            /* Padding inside button */
+    border-radius: 5px;            /* Rounded corners */
+    cursor: pointer;                /* Change cursor to pointer */
+    font-size: 24px;               /* Font size */
+    width: 30%;                     /* Full width for button */
+    text-align: center; 
+    margin-left: 30%;
+        
+}
+.submit-button:hover {
+    background-color: red; /* background color red */
+    color:white;
+  }
+  .details-container {
+    display: flex;                 /* Use flexbox for layout */
+    justify-content: space-between; /* Space between paragraphs */    
+    color: white; 
+    margin-left:20%;
+    margin-top: 10px;
+    margin-right:20%;            /* Margin around the container */
+}
+
+.details-container p {
+    margin: 10px;                    /* Remove default margin from paragraphs */
+    padding: 10px;                /* Optional padding */
+    font-size: 16px;              /* Font size */
+}
+/* Scroll to top */
+.icon{
+    margin-left: 70%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    color: white;
+  
+  } 
+  .scroll-to-top {
+    position: fixed; /* Fixes the icon position */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    display: none; /* Hidden by default */
+    font-size: 2em; /* Size of the icon */
+    color: #007bff; /* Icon color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: opacity 0.3s; /* Smooth fade in/out */
+  }
+  
+  .scroll-to-top:hover {
+    color: #0056b3; /* Darker blue on hover */
+  } 
+
+  

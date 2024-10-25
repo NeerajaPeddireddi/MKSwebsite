@@ -1,0 +1,110 @@
+body{
+    background-color: #23036e;
+    width:100%;
+    font-family: normal normal 66px / 1.4em spinnaker, sans-serif;
+}
+.fa-solid fa-xmark{
+    position: absolute; /* Allows positioning relative to the document */
+    top: 0;             /* Set the top position */
+    right: 0;            /* Optional: Set the left position to align it to the left */
+    padding: 20px;      /* Optional: Adds padding for spacing */
+    font-size: 42px;     /* Optional: Adjust size of the icon */
+    
+}
+.into{
+    margin-left:80%; /* Left spacing  */
+    font-size: 42px;  /* size of into mark  */
+    font-weight: 300;
+    margin-top:70px; /* top spacing */
+    cursor: pointer;
+}
+.head-container h2{
+    font-size: 66px;
+    color: white;
+    font-family: sans-serif;
+    margin: 3%;
+    /*width:80%;
+    margin-left:30%;  */
+    font:  normal normal 66px / 1.4em spinnaker, sans-serif;
+    text-align: center;
+}
+/* Container for both input fields */
+.form-group-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between first and last name fields */
+    margin-bottom: 10px;
+    color: white;
+    width: 50%;
+    margin-left:27%;
+    background-color: #23036e;
+}
+
+/* Styling for the label and input fields */
+.form-group {
+    flex: 1; /* Equal width for each input field */
+    background-color: #23036e;
+}
+
+/* Ensure the label is above the input field */
+.form-group label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+    background-color: #23036e;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box; /* Includes padding within the width */
+    background-color: #23036e;
+    border-color: white;
+}
+
+.form-group1 {
+    margin-bottom: 15px; /* Space between input fields */
+    width:50%;
+    margin-left:27%;
+    background-color: #23036e;
+}
+
+/* Ensure the label is above the input field */
+.form-group1 label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+    background-color: #23036e;
+    color: white;
+}
+
+/* Styling for input fields */
+.form-group1 input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box; /* Includes padding within the width */
+    background-color: #23036e;
+    border-color: white;
+}
+.form-group1 textarea {
+    width: 100%;              /* Full width of the container */
+    height: 150px;             /* Height of the message box */
+    padding: 10px;             /* Padding inside the box */
+    font-size: 16px;           /* Font size for the text inside */
+    border: 1px solid #ccc;    /* Light border around the message box */
+    border-radius: 5px;        /* Rounded corners */
+    box-sizing: border-box;    /* Ensure padding is included in the width */
+    resize: vertical;          /* Allow the user to resize vertically only */
+    background-color: #23036e;
+}
+.submit-btn{
+    width:50%;
+    margin-left:27%;
+    background-color: red;
+    color: white;
+    height: 40px;
+    border-color:white;
+}
+.submit-btn:hover{
+    background-color: #23036e;
+}

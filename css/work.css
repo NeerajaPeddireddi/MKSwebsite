@@ -1,0 +1,643 @@
+body{
+  
+  color: #23036e;
+  
+}
+*{
+  transition:all 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  clear:both;
+  overflow:auto;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+nav{
+    float:center;
+    padding-right: 10px;
+    padding: 10px;
+    margin:30px;
+    
+}
+
+.logo img{
+    float:left;
+    margin-right:80px;
+    margin-left: 20px;
+}
+.anchor-item{
+    float: left;
+    display: inline-block; 
+    padding-right:60px;
+    font-size:20px; 
+    font-family:sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(29, 6, 129);
+    text-decoration: none;
+}
+ul li{
+    float: left;
+    display: inline-block; 
+    padding-right:60px;
+    font-size:20px; 
+    font-family:sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(29, 6, 129);
+}
+    
+
+ul li:hover{
+  color:red;
+  
+}
+.large-container{
+  background-color: #23036e;
+
+}
+
+.container-start{
+  position:relative;
+  background-color:#23036e;
+  
+  
+}
+.img-1{
+  width: 80%;
+  height:20%;
+  display: block;
+  position: relative;
+}
+.text-overlay {
+  position: absolute; /* Positioning the text absolutely over the image */
+  top: 10%; /* Center vertically */
+  left: 45%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Centering correction */
+  color: white; /* Text color */
+  font-size: 24px; /* Text size */
+  font-weight: bold; /* Text weight */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background for better readability */
+  padding: 10px;
+}
+.main-container{
+  background-color: #23036e;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* single Card */
+.card1 {
+  position: absolute;
+  background-color:#ccc;
+  width: 45%;
+  height: 50%;
+  margin-left: 30%;
+  top: 90%;
+  padding: 20px;
+}
+/* card1 heading styling */
+.card1-head{
+  font-size: 60px;
+  font-weight: 300;
+  color: #23036e ;
+  padding: 7px;
+  
+}
+
+/* Container for the left and right sections */
+.content-section {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+/* Left section styling */
+.left {
+  width: 70%;
+  text-align: left;
+  margin: 10px;
+  font-size:16px;
+  padding: 10px;
+}
+
+/* Right section styling with horizontal line */
+.right {
+  width: 30%;
+  text-align: right;
+  position: relative;
+  margin-bottom: 9%;
+  padding: 10px;
+ 
+}
+
+.right hr {
+  width: 100%;
+  border: 1px solid #23036e;
+  
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .card1 {
+      width: 100%; /* Make card responsive on smaller screens */
+  }
+}
+
+
+/*cards css */
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows the cards to wrap to the next line */
+  justify-content: space-between; /* Spreads the cards evenly */
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-left: 5%;
+  margin-right:5%;
+  position: relative;
+  
+}
+.card {
+  position: relative; /* To position the ::before element */
+  background-color: #ccc;
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  transition: 0.3s;
+  border-radius: 10px; /* Optional: rounding corners */
+}
+
+
+
+
+
+/* Hover effect to enhance the card shadow */
+
+/* Styling individual cards */
+.card {
+  background-color: #ccc;
+  width: 20%; /* Adjust width to fit 3 cards per row */
+  margin: 20px ; /* Space between rows */
+  padding: 20px;
+  margin-left:5%;
+  margin-right:5%;
+  
+  transition: 0.3s; /* Smooth transition on hover */
+}
+
+
+/* Hover effect */
+
+
+/* Card content styling */
+.card h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 32px;
+}
+
+.card p {
+  margin: 0;
+  font-size:18px;
+}
+/* serices */
+.services-container{
+  color: white  ;
+  font-family: sans-serif;
+  width: 50%;
+  margin-top: 25%;
+  font-size: 16px;
+}
+.sub-container{
+  margin-left: 17%;
+}
+
+.services-container h3{
+  font-size: 66px;
+  font-weight: 300;
+  padding: 18px;
+}
+.services-container{
+  
+}
+.services-container p{
+  padding:20px;
+}
+/*Container mid css */
+.container-mid{
+  background-color: #23036e;
+  height:130px;
+
+  box-sizing: border-box;
+}
+/*Button styling */
+.Explore{
+  background-color: transparent; /* No background color */
+  color: red; /* Initial text color */
+  border: none; /* Remove default border */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  padding:10px;
+}
+
+/* Hover effect: change color to blue when cursor is over the button */
+.Explore:hover {
+  color: #23036e;
+}
+/* Empty Container Css */
+.empty-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70vh;
+  margin: 20px 0;
+  overflow: hidden; /* To hide overflow of cards */
+  background-color: #ccc;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+  
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.wrapper {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  width: 83%; /* Adjust this width according to your layout */
+  border: none;
+  margin: none;
+  padding-left:20px;
+  
+
+  
+}
+
+.scrolling-items {
+  display: flex;
+  gap: 10px; /* Space between cards */
+  border: none;
+  margin: none;
+  padding: none;
+  
+}
+
+.item {
+  min-width: 300px; /* Adjust width according to your layout */
+  height: 300px;
+  width:30%;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  flex-shrink: 0; /* Prevents cards from shrinking */
+  display: flex;
+  flex-direction: column; /* Aligns elements vertically */
+  justify-content: flex-start; /* Ensures content stays at the top */
+  font-family: sans-serif;
+  
+}
+
+.img-card{
+  height:48%;
+  width: 100%;  
+  
+}
+
+.item-h3{
+  text-align: left;
+  width:80%;
+  padding: 8px;
+}
+.item-para{
+  width:80%;
+  padding: 5px;
+  color: black;
+}
+
+
+.left-arrow:hover, .right-arrow:hover {
+  background-color: #bbb;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.fa-circle {
+  font-size: 16px;
+  color: #ddd;
+  margin: 0 5px;
+}
+/*cards css */
+.card-container{
+  display: flex;
+  flex-wrap: wrap; /* Allows the cards to wrap to the next line */
+  justify-content: space-between; /* Spreads the cards evenly */
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-left: 5%;
+  margin-right:5%;
+  position: relative;
+  
+}
+
+
+/* Last container */
+.container-last {
+  background-color: white; /* White background for the container */
+  padding: 20px; /* Padding for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
+  width: 100%; /* Set a width for the container */
+  margin: 20px auto; /* Center the container */
+}
+
+.card2 {
+  padding: 20px; /* Padding inside the card */
+  margin: 30px;
+}
+
+.card2 h2 {
+  margin-bottom: 10px; /* Space below the heading */
+  font-size: 66px;
+}
+
+.content {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center align the items vertically */
+}
+
+.line {
+  background-color: #23036e; /* Color of the line */
+  width: 20%; /* Width of the line */
+  height: 2px; /* Height of the line */
+  margin: 10px; /* Space between the line and paragraph */
+  margin-top: none;
+}
+
+.content p {
+  width: 80%; /* Paragraph takes 80% of the space */
+  margin: 10px; /* Remove default margin */
+}
+.card2-main{
+  background-color: rgb(241 241 241);
+  width: 70%; /* Adjust width to fit 3 cards per row */
+  margin: 20px 0; /* Space between rows */
+  padding: 20px;
+  margin-left:15%;
+  
+  box-shadow: 0 4px 8px white; /* Adds shadow */
+  transition: 0.3s; 
+}
+/* red button and plus symbol designing */
+.red-button1{
+  margin-left: 80%;
+  padding: 0;
+  border:none;
+  width:70%;
+  height:30px;
+  font-size: 32px;
+  color: white;
+}
+.red-button{
+  font-family: sans-serif;
+  font-size:24px;
+  text-decoration: none;
+  color: white;
+}
+.button1 {
+  background-color: #23036e; /* blue background */
+  color: white;          /* White text color */
+  border: none;          /* No border */
+  padding: 10px 20px;    /* Padding for the button */
+  cursor: pointer;        /* Pointer cursor on hover */
+  font-size:24px;
+  text-decoration: none;
+}
+.anchor-button{
+  text-decoration: none;
+  color: white;
+}
+.circle-container{
+  margin-top: 4%;
+  font-size: 10px;
+  margin-left: 50%;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styling for the second button */
+.button2 {
+  background-color:red ; /* red background */
+  color: white;          /* White text color */
+  border: none;          /* No border */
+  padding: 10px;    /* Padding for the button */
+  cursor: pointer;        /* Pointer cursor on hover */
+  font-size:16px;
+  text-decoration: none;
+}
+.button3 {
+  background-color: #23036e; /* blue background */
+  color: white;          /* White text color */
+  border: none;          /* No border */
+  padding: 10px 20px;    /* Padding for the button */
+  cursor: pointer;        /* Pointer cursor on hover */
+  font-size:24px;
+  text-decoration: none;
+}
+
+/* Styling for the second button */
+.button4 {
+  background-color:red; /* red background */
+  color: white;          /* White text color */
+  border: none;          /* No border */
+  padding: 10px;    /* Padding for the button */
+  cursor: pointer;        /* Pointer cursor on hover */
+  font-size:16px;
+  text-decoration: none;
+}
+.button1:hover{
+  background-color: #23036e;
+}
+.button2:hover{
+  background-color: #23036e;
+}
+/* Container to hold buttons */
+
+.button-container {
+  display: flex; /* Use Flexbox to arrange buttons */
+  margin-left: 70%;
+  margin-top: 0;
+  color: white;
+}
+
+/* Styling for the first button */
+.button1 {
+  background-color:#23036e; /* Red background */
+  color: white;          /* White text color */
+  border: none;          /* No border */
+  padding: 10px 20px;    /* Padding for the button */
+  cursor: pointer;        /* Pointer cursor on hover */
+  width:50px;
+}
+
+/* Styling for the second button */
+.button2 {
+  background-color:red; /* Blue background */
+  color: white;          /* White text color */
+  border: none;          /* No border */
+  padding: 10px 20px;    /* Padding for the button */
+  cursor: pointer;        /* Pointer cursor on hover */
+  width:40%;
+}*/
+.button3:hover{
+  background-color: #23036e;
+}
+.button4:hover{
+  background-color: #23036e;
+}
+
+
+
+/* contact us css */
+.contact-head{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font: normal normal normal 35px / 1.4em spinnaker, sans-serif;
+}
+.contact-form {
+  background-color: rgb(29, 6, 129);       /* Form background color */
+  padding: 20px;                 /* Padding inside the form */
+  border-radius: 8px;            /* Rounded corners */
+  box-shadow: 0 2px 10px white ; /* Shadow effect */
+  width: 100%;                  /* Form width */
+}
+
+.form-group {
+  display: flex;                 /* Use flexbox for input layout */
+  justify-content: space-between; /* Space between items */
+  margin-bottom: 15px;           /* Space below each group */
+}
+
+.form-group input, .form-group textarea {
+  border: none;                  /* Remove default border */
+  border-bottom: 2px solid #ccc; /* Add bottom border */
+  padding: 10px;                 /* Padding inside inputs */
+  width: calc(50% - 10px);      /* Adjust width for input fields */
+  font-size: 16px;               /* Font size */
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);                      /* Remove outline on focus */
+}
+
+.form-group textarea {
+  width: 100%;                   /* Full width for textarea */
+  height: 100px; 
+  background-color: rgba(0, 0, 0, 0.1);                /* Fixed height for textarea */
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  border-color:rgba(0, 0, 0, 0.1);            /* Change border color on focus */
+}
+
+.submit-button {
+  background-color: rgba(0, 0, 0, 0.1);        /* Button background color */
+  color: white;                  /* Button text color */
+  border: none;                  /* Remove default border */
+  padding: 10px 20px;            /* Padding inside button */
+  border-radius: 5px;            /* Rounded corners */
+  cursor: pointer;                /* Change cursor to pointer */
+  font-size: 16px;               /* Font size */
+  width: 30%;                     /* Full width for button */
+  text-align: center; 
+  margin-left: 30%;
+      
+}
+.submit-button:hover {
+  background-color: red; /* background color red */
+  color:white;
+}
+.details-container {
+  display: flex;                 /* Use flexbox for layout */
+  justify-content: space-between; /* Space between paragraphs */    
+  color: white; 
+  margin-left:20%;
+  margin-top: 10px;
+  margin-right:20%;            /* Margin around the container */
+}
+
+.details-container p {
+  margin: 10px;                    /* Remove default margin from paragraphs */
+  padding: 10px;                /* Optional padding */
+  font-size: 16px;              /* Font size */
+}
+/* Scroll to top */
+.icon{
+  margin-left: 70%;
+  margin-top:5%;
+  margin-bottom: 5%;
+  color: white;
+
+} 
+.scroll-to-top {
+  position: fixed; /* Fixes the icon position */
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  display: none; /* Hidden by default */
+  font-size: 2em; /* Size of the icon */
+  color: #007bff; /* Icon color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: opacity 0.3s; /* Smooth fade in/out */
+}
+
+.scroll-to-top:hover {
+  color: #0056b3; /* Darker blue on hover */
+} 
+ 
+/* scroolin cards */
+.wrapper{
+  height:10%;
+  border: 1px solid white;
+  display: flex;
+  overflow: auto;
+}
+.wrapper::-webkit-scrollbar{
+  width: 0;
+}
+.wrapper-item{
+  width: 10%;
+  height:10%;
+  line-height: 110px;
+  text-align: center;
+  background-color: pink;
+  margin-right:2px;
+}
